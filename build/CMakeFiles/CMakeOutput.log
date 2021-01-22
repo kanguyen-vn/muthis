@@ -1,0 +1,385 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/Haskell Platform/8.6.5/mingw/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/projects/muthis/build/CMakeFiles/3.19.0-rc1/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/Haskell Platform/8.6.5/mingw/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/projects/muthis/build/CMakeFiles/3.19.0-rc1/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/projects/muthis/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/GnuWin32/bin/make.exe cmTC_cefe3/fast && C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_cefe3.dir/build.make CMakeFiles/cmTC_cefe3.dir/build
+make.exe[1]: Entering directory `D:/projects/muthis/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj
+"C:/Program Files/Haskell Platform/8.6.5/mingw/bin/gcc.exe"   -v -o CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/realgcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-7.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld
+Thread model: posix
+gcc version 7.2.0 (Rev1, Built by MSYS2 project) 
+COLLECT_GCC_OPTIONS='-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0' '-v' '-o' 'CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/cc1.exe -quiet -v -iprefix C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/ -isystem C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include -isystem C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed -D_REENTRANT C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj -version -o D:\AppData\Local\Temp\ccZtJJkd.s
+GNU C11 (Rev1, Built by MSYS2 project) version 7.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 3.1.5-p2, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"
+ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"
+ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/include"
+ignoring nonexistent directory "C:/building/msys64/mingw64/include"
+ignoring nonexistent directory "/mingw64/include"
+ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"
+ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "C:/building/msys64/mingw64/x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include
+ C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C11 (Rev1, Built by MSYS2 project) version 7.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 3.1.5-p2, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: cd663256441e045689e54e69adf53c13
+COLLECT_GCC_OPTIONS='-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0' '-v' '-o' 'CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C://Program Files//Haskell Platform//8.6.5//mingw//bin/as.exe -v -o CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj D:\AppData\Local\Temp\ccZtJJkd.s
+GNU assembler version 2.29.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.29.1
+COMPILER_PATH=C://Program Files//Haskell Platform//8.6.5//mingw//bin/;C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/;C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C://Program Files//Haskell Platform//8.6.5//mingw//bin/;C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/;C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../
+COLLECT_GCC_OPTIONS='-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0' '-v' '-o' 'CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_cefe3.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_cefe3.dir/objects.a
+"C:/Program Files/Haskell Platform/8.6.5/mingw/bin/ar.exe" cr CMakeFiles/cmTC_cefe3.dir/objects.a @CMakeFiles/cmTC_cefe3.dir/objects1.rsp
+"C:/Program Files/Haskell Platform/8.6.5/mingw/bin/gcc.exe"  -v -Wl,--whole-archive CMakeFiles/cmTC_cefe3.dir/objects.a -Wl,--no-whole-archive -o cmTC_cefe3.exe -Wl,--out-implib,libcmTC_cefe3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/realgcc.exe
+COLLECT_LTO_WRAPPER=C://Program\ Files//Haskell\ Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-7.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld
+Thread model: posix
+gcc version 7.2.0 (Rev1, Built by MSYS2 project) 
+COMPILER_PATH=C://Program Files//Haskell Platform//8.6.5//mingw//bin/;C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/;C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C://Program Files//Haskell Platform//8.6.5//mingw//bin/;C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/;C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../
+COLLECT_GCC_OPTIONS='-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0' '-v' '-o' 'cmTC_cefe3.exe' '-mtune=generic' '-march=x86-64'
+ C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/collect2.exe -plugin C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/liblto_plugin-0.dll -plugin-opt=C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\AppData\Local\Temp\cc9Q8vqA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_cefe3.exe C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/crtbegin.o -LC://Program Files//Haskell Platform//8.6.5//mingw//bin -LC://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib -LC://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0 -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0 -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../.. --whole-archive CMakeFiles/cmTC_cefe3.dir/objects.a --no-whole-archive --out-implib libcmTC_cefe3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0' '-v' '-o' 'cmTC_cefe3.exe' '-mtune=generic' '-march=x86-64'
+make.exe[1]: Leaving directory `D:/projects/muthis/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include]
+    add: [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed]
+    add: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include]
+    add: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include] ==> [C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/x86_64-w64-mingw32/7.2.0/include]
+  collapse include dir [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed] ==> [C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed]
+  collapse include dir [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include] ==> [C:/Program Files/Haskell Platform/8.6.5/mingw/include]
+  collapse include dir [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Program Files/Haskell Platform/8.6.5/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/x86_64-w64-mingw32/7.2.0/include;C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed;C:/Program Files/Haskell Platform/8.6.5/mingw/include;C:/Program Files/Haskell Platform/8.6.5/mingw/x86_64-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/projects/muthis/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/PROGRA~2/GnuWin32/bin/make.exe cmTC_cefe3/fast && C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_cefe3.dir/build.make CMakeFiles/cmTC_cefe3.dir/build]
+  ignore line: [make.exe[1]: Entering directory `D:/projects/muthis/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["C:/Program Files/Haskell Platform/8.6.5/mingw/bin/gcc.exe"   -v -o CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/realgcc.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-7.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.2.0 (Rev1  Built by MSYS2 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0' '-v' '-o' 'CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/cc1.exe -quiet -v -iprefix C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/ -isystem C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include -isystem C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed -D_REENTRANT C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj -version -o D:\AppData\Local\Temp\ccZtJJkd.s]
+  ignore line: [GNU C11 (Rev1  Built by MSYS2 project) version 7.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 7.2.0  GMP version 6.1.2  MPFR version 3.1.5-p2  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"]
+  ignore line: [ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/include"]
+  ignore line: [ignoring nonexistent directory "C:/building/msys64/mingw64/include"]
+  ignore line: [ignoring nonexistent directory "/mingw64/include"]
+  ignore line: [ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/building/msys64/mingw64/x86_64-w64-mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include]
+  ignore line: [ C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed]
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include]
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Rev1  Built by MSYS2 project) version 7.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 7.2.0  GMP version 6.1.2  MPFR version 3.1.5-p2  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: cd663256441e045689e54e69adf53c13]
+  ignore line: [COLLECT_GCC_OPTIONS='-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0' '-v' '-o' 'CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ C://Program Files//Haskell Platform//8.6.5//mingw//bin/as.exe -v -o CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj D:\AppData\Local\Temp\ccZtJJkd.s]
+  ignore line: [GNU assembler version 2.29.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.29.1]
+  ignore line: [COMPILER_PATH=C://Program Files//Haskell Platform//8.6.5//mingw//bin/]
+  ignore line: [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/]
+  ignore line: [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C://Program Files//Haskell Platform//8.6.5//mingw//bin/]
+  ignore line: [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/]
+  ignore line: [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0' '-v' '-o' 'CMakeFiles/cmTC_cefe3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_cefe3.exe]
+  ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_cefe3.dir/objects.a]
+  ignore line: ["C:/Program Files/Haskell Platform/8.6.5/mingw/bin/ar.exe" cr CMakeFiles/cmTC_cefe3.dir/objects.a @CMakeFiles/cmTC_cefe3.dir/objects1.rsp]
+  ignore line: ["C:/Program Files/Haskell Platform/8.6.5/mingw/bin/gcc.exe"  -v -Wl --whole-archive CMakeFiles/cmTC_cefe3.dir/objects.a -Wl --no-whole-archive -o cmTC_cefe3.exe -Wl --out-implib libcmTC_cefe3.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/realgcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C://Program\ Files//Haskell\ Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-7.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.2.0 (Rev1  Built by MSYS2 project) ]
+  ignore line: [COMPILER_PATH=C://Program Files//Haskell Platform//8.6.5//mingw//bin/]
+  ignore line: [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/]
+  ignore line: [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C://Program Files//Haskell Platform//8.6.5//mingw//bin/]
+  ignore line: [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/]
+  ignore line: [C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0' '-v' '-o' 'cmTC_cefe3.exe' '-mtune=generic' '-march=x86-64']
+  ignore line: [ C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/collect2.exe -plugin C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/liblto_plugin-0.dll -plugin-opt=C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\AppData\Local\Temp\cc9Q8vqA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_cefe3.exe C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/crtbegin.o -LC://Program Files//Haskell Platform//8.6.5//mingw//bin -LC://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib -LC://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0 -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0 -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../.. --whole-archive CMakeFiles/cmTC_cefe3.dir/objects.a --no-whole-archive --out-implib libcmTC_cefe3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../lib/gcc/x86_64-w64-mingw32/7.2.0' '-B' 'C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0' '-v' '-o' 'cmTC_cefe3.exe' '-mtune=generic' '-march=x86-64']
+  ignore line: [make.exe[1]: Leaving directory `D:/projects/muthis/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/projects/muthis/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/GnuWin32/bin/make.exe cmTC_3962a/fast && C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_3962a.dir/build.make CMakeFiles/cmTC_3962a.dir/build
+make.exe[1]: Entering directory `D:/projects/muthis/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj
+"C:/Program Files/Haskell Platform/8.6.5/mingw/bin/g++.exe"   -v -o CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/g++.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-7.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld
+Thread model: posix
+gcc version 7.2.0 (Rev1, Built by MSYS2 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/cc1plus.exe -quiet -v -iprefix C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj -version -o D:\AppData\Local\Temp\ccvyY3m9.s
+GNU C++14 (Rev1, Built by MSYS2 project) version 7.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 3.1.5-p2, MPC version 1.0.3, isl version isl-0.18-GMP
+
+warning: GMP header version 6.1.2 differs from library version 6.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"
+ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"
+ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"
+ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/include"
+ignoring nonexistent directory "C:/building/msys64/mingw64/include"
+ignoring nonexistent directory "/mingw64/include"
+ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"
+ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "C:/building/msys64/mingw64/x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++14 (Rev1, Built by MSYS2 project) version 7.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 3.1.5-p2, MPC version 1.0.3, isl version isl-0.18-GMP
+
+warning: GMP header version 6.1.2 differs from library version 6.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4207686a0d941f10414d4588436decc7
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj D:\AppData\Local\Temp\ccvyY3m9.s
+GNU assembler version 2.29.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.29.1
+COMPILER_PATH=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_3962a.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_3962a.dir/objects.a
+"C:/Program Files/Haskell Platform/8.6.5/mingw/bin/ar.exe" cr CMakeFiles/cmTC_3962a.dir/objects.a @CMakeFiles/cmTC_3962a.dir/objects1.rsp
+"C:/Program Files/Haskell Platform/8.6.5/mingw/bin/g++.exe"  -v -Wl,--whole-archive CMakeFiles/cmTC_3962a.dir/objects.a -Wl,--no-whole-archive -o cmTC_3962a.exe -Wl,--out-implib,libcmTC_3962a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/g++.exe
+COLLECT_LTO_WRAPPER=C:/Program\ Files/Haskell\ Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-7.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld
+Thread model: posix
+gcc version 7.2.0 (Rev1, Built by MSYS2 project) 
+COMPILER_PATH=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3962a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/collect2.exe -plugin C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/liblto_plugin-0.dll -plugin-opt=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\AppData\Local\Temp\ccexKPMf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_3962a.exe C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/crtbegin.o -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0 -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../.. --whole-archive CMakeFiles/cmTC_3962a.dir/objects.a --no-whole-archive --out-implib libcmTC_3962a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3962a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make.exe[1]: Leaving directory `D:/projects/muthis/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0]
+    add: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32]
+    add: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward]
+    add: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include]
+    add: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include]
+    add: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed]
+    add: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0] ==> [C:/Program Files/Haskell Platform/8.6.5/mingw/include/c++/7.2.0]
+  collapse include dir [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32] ==> [C:/Program Files/Haskell Platform/8.6.5/mingw/include/c++/7.2.0/x86_64-w64-mingw32]
+  collapse include dir [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward] ==> [C:/Program Files/Haskell Platform/8.6.5/mingw/include/c++/7.2.0/backward]
+  collapse include dir [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include] ==> [C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/x86_64-w64-mingw32/7.2.0/include]
+  collapse include dir [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include] ==> [C:/Program Files/Haskell Platform/8.6.5/mingw/include]
+  collapse include dir [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed] ==> [C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed]
+  collapse include dir [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Program Files/Haskell Platform/8.6.5/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/Program Files/Haskell Platform/8.6.5/mingw/include/c++/7.2.0;C:/Program Files/Haskell Platform/8.6.5/mingw/include/c++/7.2.0/x86_64-w64-mingw32;C:/Program Files/Haskell Platform/8.6.5/mingw/include/c++/7.2.0/backward;C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/x86_64-w64-mingw32/7.2.0/include;C:/Program Files/Haskell Platform/8.6.5/mingw/include;C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed;C:/Program Files/Haskell Platform/8.6.5/mingw/x86_64-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/projects/muthis/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/PROGRA~2/GnuWin32/bin/make.exe cmTC_3962a/fast && C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_3962a.dir/build.make CMakeFiles/cmTC_3962a.dir/build]
+  ignore line: [make.exe[1]: Entering directory `D:/projects/muthis/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["C:/Program Files/Haskell Platform/8.6.5/mingw/bin/g++.exe"   -v -o CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/g++.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-7.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.2.0 (Rev1  Built by MSYS2 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/cc1plus.exe -quiet -v -iprefix C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj -version -o D:\AppData\Local\Temp\ccvyY3m9.s]
+  ignore line: [GNU C++14 (Rev1  Built by MSYS2 project) version 7.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 7.2.0  GMP version 6.1.2  MPFR version 3.1.5-p2  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [warning: GMP header version 6.1.2 differs from library version 6.1.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"]
+  ignore line: [ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"]
+  ignore line: [ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/include"]
+  ignore line: [ignoring nonexistent directory "C:/building/msys64/mingw64/include"]
+  ignore line: [ignoring nonexistent directory "/mingw64/include"]
+  ignore line: [ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Program Files/Haskell Platform/8.6.5/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/building/msys64/mingw64/x86_64-w64-mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0]
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32]
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward]
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include]
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include]
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed]
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Rev1  Built by MSYS2 project) version 7.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 7.2.0  GMP version 6.1.2  MPFR version 3.1.5-p2  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [warning: GMP header version 6.1.2 differs from library version 6.1.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4207686a0d941f10414d4588436decc7]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj D:\AppData\Local\Temp\ccvyY3m9.s]
+  ignore line: [GNU assembler version 2.29.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.29.1]
+  ignore line: [COMPILER_PATH=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3962a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_3962a.exe]
+  ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_3962a.dir/objects.a]
+  ignore line: ["C:/Program Files/Haskell Platform/8.6.5/mingw/bin/ar.exe" cr CMakeFiles/cmTC_3962a.dir/objects.a @CMakeFiles/cmTC_3962a.dir/objects1.rsp]
+  ignore line: ["C:/Program Files/Haskell Platform/8.6.5/mingw/bin/g++.exe"  -v -Wl --whole-archive CMakeFiles/cmTC_3962a.dir/objects.a -Wl --no-whole-archive -o cmTC_3962a.exe -Wl --out-implib libcmTC_3962a.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Program\ Files/Haskell\ Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-7.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.2.0 (Rev1  Built by MSYS2 project) ]
+  ignore line: [COMPILER_PATH=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3962a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/collect2.exe -plugin C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/liblto_plugin-0.dll -plugin-opt=C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\AppData\Local\Temp\ccexKPMf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_3962a.exe C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/crtbegin.o -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0 -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../.. --whole-archive CMakeFiles/cmTC_3962a.dir/objects.a --no-whole-archive --out-implib libcmTC_3962a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3962a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [make.exe[1]: Leaving directory `D:/projects/muthis/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

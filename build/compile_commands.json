@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/projects/muthis/build",
+  "command": "\"C:/Program Files/Haskell Platform/8.6.5/mingw/bin/g++.exe\"   -g -o CMakeFiles/schenky.dir/schenky.cpp.obj -c D:/projects/muthis/schenky.cpp",
+  "file": "D:/projects/muthis/schenky.cpp"
+}
+]

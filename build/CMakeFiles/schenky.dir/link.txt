@@ -1,0 +1,2 @@
+"C:/Program Files/Haskell Platform/8.6.5/mingw/bin/ar.exe" qc libschenky.a CMakeFiles/schenky.dir/schenky.cpp.obj
+"C:/Program Files/Haskell Platform/8.6.5/mingw/bin/ranlib.exe" libschenky.a
