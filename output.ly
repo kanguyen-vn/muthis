@@ -5,11 +5,6 @@
     tagline = ##f
 }
 
-\header{
-    title = "Schenky example"
-    composer = "Entered by: Kiet Nguyen"
-}
-
 \version "2.20.0"
 
 \pointAndClickTypes #'note-event

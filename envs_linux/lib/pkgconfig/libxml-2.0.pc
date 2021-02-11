@@ -1,0 +1,13 @@
+prefix=/home/kiet/projects/muthis/envs_linux
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.10
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/home/kiet/projects/muthis/envs_linux/lib -licui18n -licuuc -licudata -lpthread -L/home/kiet/projects/muthis/envs_linux/lib -lz -L/home/kiet/projects/muthis/envs_linux/lib -llzma -L/home/kiet/projects/muthis/envs_linux/lib -liconv -lm  
+Cflags: -I${includedir}/libxml2 -I/home/kiet/projects/muthis/envs_linux/include 

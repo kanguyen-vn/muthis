@@ -1,6 +1,7 @@
 from pathlib import Path
 import subprocess
-import webbrowser
+# import webbrowser
+import popplerqt5
 import re
 from .note import Note
 from .slur import Slur
@@ -35,10 +36,10 @@ class Score:
             "indent = 0",
             "tagline = ##f",
             "}\n",
-            "\\header{",
-            'title = "Schenky example"',
-            'composer = "Entered by: Kiet Nguyen"',
-            "}\n",
+            # "\\header{",
+            # 'title = "Schenky example"',
+            # 'composer = "Entered by: Kiet Nguyen"',
+            # "}\n",
             "\\version \"2.20.0\"\n",
             "\\pointAndClickTypes #'note-event",
             "I = \\once \\override NoteColumn.ignore-collision = ##t\n",
@@ -300,8 +301,6 @@ class Score:
             self.process()
             self.write()
             ly_path = Path(__file__).parent.parent / "output.ly"
-            lilypond_run = subprocess.run(["lilypond", ly_path.absolute()])
+            lilypond_run = subprocess.run(["lilypond", ly_path.absolute()], check=True)
             print("LilyPond executed with exit code", lilypond_run.returncode)
-            pdf_path = Path(__file__).parent.parent / "output.pdf"
-            webbrowser.open_new(pdf_path.absolute())
             return

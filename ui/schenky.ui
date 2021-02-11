@@ -38,7 +38,7 @@
      <attribute name="label">
       <string>Elements</string>
      </attribute>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="slur_button">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -51,7 +51,7 @@
        <string>Slur</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="unfold_button">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -64,7 +64,7 @@
        <string>Unfolding</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="reach_button">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -90,7 +90,7 @@
      <attribute name="label">
       <string>Line</string>
      </attribute>
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="urlinie_button">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -103,7 +103,7 @@
        <string>Urlinie</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_5">
+     <widget class="QPushButton" name="inner_button">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -118,7 +118,7 @@
      </widget>
     </widget>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="key_label">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -139,7 +139,7 @@
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="key_combo">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -155,25 +155,34 @@
       <x>30</x>
       <y>70</y>
       <width>741</width>
-      <height>191</height>
+      <height>211</height>
      </rect>
     </property>
-    <layout class="QFormLayout" name="formLayout_2">
+    <layout class="QFormLayout" name="note_input">
      <property name="labelAlignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <item row="0" column="1">
-      <widget class="QTextEdit" name="textEdit">
+      <widget class="QTextEdit" name="treble_input">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>91</height>
+        </size>
+       </property>
+       <property name="lineWrapMode">
+        <enum>QTextEdit::NoWrap</enum>
+       </property>
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QLabel" name="bass">
+      <widget class="QLabel" name="bass_label">
        <property name="font">
         <font>
          <pointsize>11</pointsize>
@@ -185,17 +194,26 @@
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QTextEdit" name="textEdit_2">
+      <widget class="QTextEdit" name="bass_input">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>91</height>
+        </size>
+       </property>
+       <property name="lineWrapMode">
+        <enum>QTextEdit::NoWrap</enum>
+       </property>
       </widget>
      </item>
      <item row="0" column="0">
-      <widget class="QLabel" name="treble">
+      <widget class="QLabel" name="treble_label">
        <property name="font">
         <font>
          <pointsize>11</pointsize>
@@ -207,7 +225,7 @@
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QScrollBar" name="horizontalScrollBar">
+      <widget class="QScrollBar" name="horizontal_scroll">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
@@ -219,7 +237,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>280</y>
+      <y>290</y>
       <width>741</width>
       <height>16</height>
      </rect>
@@ -228,6 +246,42 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
+   <widget class="QScrollArea" name="scroll_area">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>320</y>
+      <width>741</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>739</width>
+       <height>189</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>741</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -235,7 +289,7 @@
      <x>0</x>
      <y>0</y>
      <width>910</width>
-     <height>26</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
