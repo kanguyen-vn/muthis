@@ -71,36 +71,36 @@ class Ui_Schenky(object):
         self.trebleLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
         self.trebleLayout.setContentsMargins(6, 0, 6, 0)
         self.trebleLayout.setObjectName("trebleLayout")
-        self.c4 = QtWidgets.QPushButton(self.horizontalLayoutWidget)
-        self.c4.setMinimumSize(QtCore.QSize(50, 0))
-        self.c4.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.c4.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.c4.setStyleSheet("QPushButton {\n"
-"border-width: 1px;\n"
-"border-style: solid;\n"
-"border-color: black;\n"
-"}")
-        self.c4.setCheckable(False)
-        self.c4.setChecked(False)
-        self.c4.setAutoDefault(False)
-        self.c4.setDefault(False)
-        self.c4.setFlat(True)
-        self.c4.setObjectName("c4")
-        self.trebleLayout.addWidget(self.c4)
-        self.d4 = QtWidgets.QPushButton(self.horizontalLayoutWidget)
-        self.d4.setMinimumSize(QtCore.QSize(50, 0))
-        self.d4.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.d4.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.d4.setStyleSheet("QPushButton {\n"
-"border-width: 1px;\n"
-"border-style: solid;\n"
-"border-color: black;\n"
-"}")
-        self.d4.setFlat(True)
-        self.d4.setObjectName("d4")
-        self.trebleLayout.addWidget(self.d4)
-        spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
-        self.trebleLayout.addItem(spacerItem)
+#         self.c4 = QtWidgets.QPushButton(self.horizontalLayoutWidget)
+#         self.c4.setMinimumSize(QtCore.QSize(50, 0))
+#         self.c4.setMaximumSize(QtCore.QSize(50, 16777215))
+#         self.c4.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+#         self.c4.setStyleSheet("QPushButton {\n"
+# "border-width: 1px;\n"
+# "border-style: solid;\n"
+# "border-color: black;\n"
+# "}")
+#         self.c4.setCheckable(False)
+#         self.c4.setChecked(False)
+#         self.c4.setAutoDefault(False)
+#         self.c4.setDefault(False)
+#         self.c4.setFlat(True)
+#         self.c4.setObjectName("c4")
+#         self.trebleLayout.addWidget(self.c4)
+#         self.d4 = QtWidgets.QPushButton(self.horizontalLayoutWidget)
+#         self.d4.setMinimumSize(QtCore.QSize(50, 0))
+#         self.d4.setMaximumSize(QtCore.QSize(50, 16777215))
+#         self.d4.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+#         self.d4.setStyleSheet("QPushButton {\n"
+# "border-width: 1px;\n"
+# "border-style: solid;\n"
+# "border-color: black;\n"
+# "}")
+#         self.d4.setFlat(True)
+#         self.d4.setObjectName("d4")
+#         self.trebleLayout.addWidget(self.d4)
+#         spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+#         self.trebleLayout.addItem(spacerItem)
         self.noteInput.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.trebleLayoutWidget)
         self.bassLabel = QtWidgets.QLabel(self.formLayoutWidget)
         font = QtGui.QFont()
@@ -280,6 +280,8 @@ class Ui_Schenky(object):
             self.currentStaff = self.trebleLayout
         elif now == self.bassLayoutWidget:
             self.currentStaff = self.bassLayout
+        else:
+            self.currentStaff = None
     
     def loadPdf(self):
         pdf = popplerqt5.Poppler.Document.load("output.pdf")
@@ -345,8 +347,8 @@ class Ui_Schenky(object):
         self.keyCombo.setItemText(13, _translate("Schenky", "B major/G# minor"))
         self.keyCombo.setItemText(14, _translate("Schenky", "Cb major/Ab minor"))
         self.trebleLabel.setText(_translate("Schenky", "Treble:"))
-        self.c4.setText(_translate("Schenky", "C4"))
-        self.d4.setText(_translate("Schenky", "D4"))
+        # self.c4.setText(_translate("Schenky", "C4"))
+        # self.d4.setText(_translate("Schenky", "D4"))
         self.bassLabel.setText(_translate("Schenky", "Bass:"))
         self.previewScrollArea.setStatusTip(_translate("Schenky", "Schenkerian graph preview"))
         self.previewLabel.setText(_translate("Schenky", "Preview:"))
@@ -403,13 +405,102 @@ class Ui_Schenky(object):
         self.actionPaste.setShortcut(_translate("Schenky", "Ctrl+V"))
 
 
+class MainWindow(QtWidgets.QMainWindow, Ui_Schenky):
+    def __init__(self, parent=None):
+        QtWidgets.QMainWindow.__init__(self, parent=parent)
+        self.setupUi(self)
+    
+    def newNote(self, name, staff, widget):
+        newNote = QtWidgets.QPushButton(widget)
+        newNote.setMinimumSize(QtCore.QSize(50, 0))
+        newNote.setMaximumSize(QtCore.QSize(50, 16777215))
+        newNote.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        newNote.setStyleSheet("QPushButton {\n"
+            "border-width: 1px;\n"
+            "border-style: solid;\n"
+            "border-color: black;\n"
+            "}")
+        newNote.setCheckable(False)
+        newNote.setChecked(False)
+        newNote.setAutoDefault(False)
+        newNote.setDefault(False)
+        newNote.setFlat(True)
+        newNote.setObjectName("someNote")
+        newNote.setText(QtCore.QCoreApplication.translate("Schenky", name))
+        count = staff.count()
+        if count > 1:
+            staff.removeItem(staff.itemAt(count - 1))
+        staff.addWidget(newNote)
+        spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        staff.addItem(spacerItem)
+
+    def keyPressEvent(self, e):
+        if self.currentStaff == None:
+            return
+        if e.key() == Qt.Key_C:
+            note = "C"
+        elif e.key() == Qt.Key_D:
+            note = "D"
+        elif e.key() == Qt.Key_E:
+            note = "E"
+        elif e.key() == Qt.Key_F:
+            note = "F"
+        elif e.key() == Qt.Key_G:
+            note = "G"
+        elif e.key() == Qt.Key_A:
+            note = "A"
+        elif e.key() == Qt.Key_B:
+            note = "B"
+        else:
+            return
+        note += "4"
+
+        if self.currentStaff == self.trebleLayout:
+            self.newNote(note, self.trebleLayout, self.horizontalLayoutWidget)
+            self.newNote("S", self.bassLayout, self.horizontalLayoutWidget_2)
+        else:
+            self.newNote(note, self.bassLayout, self.horizontalLayoutWidget_2)
+            self.newNote("S", self.trebleLayout, self.horizontalLayoutWidget)
+
+        # if self.currentStaff == self.trebleLayout:
+        #     newNote = QtWidgets.QPushButton(self.horizontalLayoutWidget)
+        #     otherStaff = self.bassLayout
+        # else:
+        #     newNote = QtWidgets.QPushButton(self.horizontalLayoutWidget_2)
+        #     otherStaff = self.trebleLayout
+
+        # newNote.setMinimumSize(QtCore.QSize(50, 0))
+        # newNote.setMaximumSize(QtCore.QSize(50, 16777215))
+        # newNote.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        # newNote.setStyleSheet("QPushButton {\n"
+        #     "border-width: 1px;\n"
+        #     "border-style: solid;\n"
+        #     "border-color: black;\n"
+        #     "}")
+        # newNote.setCheckable(False)
+        # newNote.setChecked(False)
+        # newNote.setAutoDefault(False)
+        # newNote.setDefault(False)
+        # newNote.setFlat(True)
+        # newNote.setObjectName("someNote")
+        # newNote.setText(QtCore.QCoreApplication.translate("Schenky", note))
+        # count = self.currentStaff.count()
+        # if count > 1:
+        #     self.currentStaff.removeItem(self.currentStaff.itemAt(count - 1))
+        # self.currentStaff.addWidget(newNote)
+        # spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        # self.currentStaff.addItem(spacerItem)
+
+
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    Schenky = QtWidgets.QMainWindow()
-    ui = Ui_Schenky()
-    ui.setupUi(Schenky)
-    Schenky.show()
+    # Schenky = QtWidgets.QMainWindow()
+    # ui = Ui_Schenky()
+    # ui.setupUi(Schenky)
+    # Schenky.show()
+    ui = MainWindow()
+    ui.show()
     ui.loadPdf()
     ui.displayPdf()
     sys.exit(app.exec_())
